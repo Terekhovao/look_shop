@@ -1,6 +1,18 @@
+.header768 {
+	display: none;
+}
+.group768{
+	display: none;
+}
+// .logo-wrapp768{
+// 	display: none;
+// }
+// .shopping-wrap768 {
+// 	display: none;
+// }
 .box-top {
 	line-height: 97px;
-	padding: 20px;
+	padding: 10px;
 	background-color:@top-color;
 	color:@top-text-color; 
 	text-transform: uppercase;
@@ -8,8 +20,6 @@
 	font-size: @main-size;
 	margin: 1%;
 }
-
-
 .btn-add{
 	width: 221px;
 	line-height: 60px;
@@ -34,8 +44,8 @@
 }
 .logo-wrapp {
 	.box-top;
-	height: 200px;
-	margin-top:50px;
+	line-height: 200px;
+	// margin-top:50px;
 }
 .logo-box.icon{
 	height: 200px;
@@ -54,7 +64,7 @@
 .zero-items:after {
 	content: "";
 	border-right: 2px solid @shopping-color;
-	padding-right: 20px;
+	padding-right: 10px;
 	height: 28px;
 }
 // .zero-items {
@@ -71,9 +81,9 @@
 	background-image: url(../img/sprite.png);
 }
 .logo-box.icon {
-    width: 386px;
-    height: 126px;
-    background-position: -11px -312px;
+     width: 386px;
+    height: 108px;
+    background-position: -14px -327px;
 }
 .right-menu-icon.icon{
 	width: 49px;
@@ -170,12 +180,18 @@ margin-top: -5px;
 @text-email-color:#9f9f9f;
 @email-color:#ededed;
 @main-size:30px;
+@small-size:12px;
 @title-clothing:18px;
 @sub-title:27.50px;
+@about-shop-size:24px;
+@about-text:14px;
+@about-shop-color:#414141;
 @shadow-orng-color:#dd6b44;
 @main-orng-color:#fd926d;
 @clothing-hover:#f7f7f7;
 @dark-peach-color:#f4845d;
+@footer-color:#8d8d8d;
+@footer-size:11px;
 
 
 a {
@@ -197,6 +213,7 @@ header {
 }
 .item-us{
 	float: left;
+	margin-right: 10px;
 }
 .item-search{
 	float: right;
@@ -215,7 +232,7 @@ header {
 	color: @shopping-color;
 	background-color: @shopping-color-bg;
 	margin-bottom: 23px;
-	padding: 0;
+	padding-right: 10px;
 }
 .menu-wrap {
 	.box-top;
@@ -338,3 +355,192 @@ footer {
     background-position: -120px -441px;
     margin: 22px 31px;
 }
+a {
+	color: white;
+}
+@media screen and (min-width: 768px) {
+	header {
+	display: none;
+	}
+	.header768{
+	display: block;
+	.box-top;
+	line-height: 29px;
+	background-color: black;
+	color: @top-color;
+	font-size: @small-size;
+	}
+	.custom-care {
+		float: left;
+		margin-right: 5px;
+	}
+	.info-wrap768{
+		float: right;
+	}
+	.icon-search.icon{
+		width: 20px;
+   		height: 20px;
+    	background-position: -62px -20px;
+	}
+	.info-wrap {
+		display: none;
+	}
+	.logo-wrapp{
+		display: none;
+	}
+	.logo-wrapp768 {
+		.box-top;
+		height: 105px;
+	}
+	.logo-icon.icon{
+		width: 124px;
+    	height: 25px;
+    	background-position: -384px -19px;
+    	float: left;
+	}
+	.shopping-wrap {
+		display: none;
+	}
+	.container-cash{
+		display: none;
+	}
+	.shopping-wrap768{
+		width: 215px;
+		line-height: 33px;
+		border: 1px solid @border-color;
+		float: right;
+	}
+	.card{
+		font-size: @small-size;
+		color: @shopping-color;
+		float: left;
+		padding:5px;
+		position: relative;
+	}
+	.dropdown-arrow768:after {
+		content: '';
+		position: absolute;
+		top: 92px;
+		right: 0;
+		margin-left: 13px;
+		width: 0;
+		height: 0;
+		border: 9px solid transparent;
+		border-top-color:#c1c1c1;
+		margin-right: 40px;
+	}
+	.icon-bag.icon{
+		width: 24px;
+    	height: 20px;
+    	background-position: -58px -68px;
+    	float: left;
+    	margin: 11px;
+	} 
+	.container-cash768{
+		font-size: 11px;
+		color: @shopping-color;
+		float: right;
+	}
+	.cash {
+		padding: 5px;
+	}
+	.menu-wrap {
+		display: none;
+	}
+	.menu-wrap768{
+		.box-top;
+		background-color:@peach-color;
+		color: @top-color;
+		margin-bottom: 10px;
+		line-height: 50px;
+		padding: 0px;
+	}
+	.menu-icon768 {
+		width: 49px;
+    	height: 34px;
+    	background-position: 1px -175px;
+    	float: right;
+    /* margin-top: 43px; */
+    	margin: 17px;
+	}
+	.left-menu768{
+		padding: 10px;
+		float: left;
+	}
+	.wrap-update {
+		.box-top;
+		height: 56px;
+		background-color: @email-color;
+	}
+	.text-update{
+		float: left;
+		margin-right: 10px;
+	}
+	.email-wrap768 {
+		width: 156px;
+		line-height: 30px;
+		background-color: @top-color;
+	}
+
+	.group768{
+		display: block;
+	}
+	.about-lookshop{
+		height: 180px;
+		background-color: @top-color;
+		text-align: center;
+	}
+	h1{
+		font-size:@about-shop-size;
+		color: #414141;
+	}
+	.text-about{
+		font-size: @about-text;
+		color: #999999;
+		text-align: justify;
+
+	}
+	.gray-adv{
+		height: 406px;
+		background-color: @email-color;
+		padding-top: 5px;
+	}
+	.mastercard-wrap {
+		margin-top: 15px;
+		line-height: 59px;
+		background-color: @clothing-hover;
+		text-align: center;
+	}
+	.text-card{
+		font-size: @small-size;
+		color: @about-shop-color;
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.icon-mastercard.icon {
+		width: 489px;
+    	height: 32px;
+    	background-position: -18px -294px;
+	}
+	.footer768 {
+		height: 75px;
+		background-color: black;
+		margin: 0px;
+	}
+	.border-right {
+		border-right: 1px solid @footer-color;
+		padding-right: 9px;
+		font-size: @footer-size;
+		color: @footer-color;
+	}
+	.icon-tm.icon{
+		width: 108px;
+    	height: 31px;
+    	background-position: -368px -61px;
+    	margin-left: 60px;
+	}
+
+}
+
+
+
