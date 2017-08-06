@@ -4,6 +4,27 @@
 .group768 {
   display: none;
 }
+.big-container {
+  display: none;
+}
+.gray-adv {
+  display: none;
+}
+.about-lookshop {
+  display: none;
+}
+.footer768 {
+  display: none;
+}
+.wrap-update {
+  display: none;
+}
+.menu-wrap768 {
+  display: none;
+}
+.shopping-wrap768 {
+  display: none;
+}
 .box-top {
   line-height: 97px;
   padding: 10px;
@@ -401,6 +422,9 @@ a {
   .logo-wrapp {
     display: none;
   }
+  .shopping-wrap768 {
+    display: block;
+  }
   .logo-wrapp768 {
     line-height: 97px;
     padding: 10px;
@@ -570,5 +594,77 @@ a {
     height: 31px;
     background-position: -368px -61px;
     margin-left: 60px;
+  }
+  h2 {
+    color: #544f4d;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .social-icons.icon {
+    width: 130px;
+    height: 84px;
+    background-position: -383px -104px;
+  }
+  .customer,
+  .information,
+  .social {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+  .social {
+    margin-left: 60px;
+    margin-top: -40px;
+  }
+  li {
+    list-style-type: none;
+  }
+  li a {
+    color: #544f4d;
+    font-size: 12px;
+  }
+  ul {
+    padding: 0px;
+  }
+  .compaigns,
+  .stores {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .stores {
+    margin-left: 30px;
+  }
+  .icon.icon-star {
+    width: 115px;
+    height: 115px;
+    background-position: -393px -495px;
+    margin-left: 54px;
+  }
+  .header768 {
+    display: block;
+  }
+  .group768 {
+    display: block;
+  }
+  .big-container {
+    display: block;
+  }
+  .gray-adv {
+    display: block;
+  }
+  .about-lookshop {
+    display: block;
+  }
+  .footer768 {
+    display: block;
+  }
+  .wrap-update {
+    display: block;
+  }
+  .menu-wrap768 {
+    display: block;
+  }
+  .shopping-wrap768 {
+    display: block;
   }
 }
