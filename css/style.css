@@ -855,11 +855,47 @@ a {
   .email-wrap {
     display: none;
   }
-  .slider-item-container {
-    width: 760px;
+  .main {
+    height: 420px;
   }
-  .slider-item-container img {
+  .main img {
     width: 100%;
-    overflow: hidden;
+  }
+  /*Стили для слайдера*/
+  .sl__slide {
+    position: relative;
+  }
+  .sl__text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .sl__zag,
+  .sl__desc {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .slick-dots li button {
+    border-radius: 50%;
+    background-color: #867a76 !important;
+  }
+  .slick-dots li button:before {
+    content: "" !important;
+    border-radius: 50%;
+  }
+  .slick-dots li button:hover {
+    background-color: #fd926d !important;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .main img {
+    width: 100%;
+    height: 515px;
+  }
+  .main {
+    margin-bottom: 142px;
   }
 }
